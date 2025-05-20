@@ -3,7 +3,6 @@ import {
   FaTiktok,
   FaInstagram,
   FaFacebook,
-  FaYoutube,
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import { links } from "./links";
@@ -35,12 +34,6 @@ export const items = [
   },
   {
     id: 5,
-    name: "YouTube",
-    link: links.youtube,
-    icon: <FaYoutube />,
-  },
-  {
-    id: 6,
     name: "Ubicación",
     link: links.location,
     icon: <FaMapMarkerAlt />,
